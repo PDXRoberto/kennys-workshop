@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0d304c" />
+    <meta name="description" content="Kenny's Workshop: mechanical puzzles, virtual workshop activities, memories, submarines, motorcycles, race cars, music, and stories." />
+    <meta name="color-scheme" content="light" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Kenny's Workshop" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/workshop-mark.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icons/workshop-mark-180.png" />
+    <link rel="preload" href="assets/hero-workshop.webp" as="image" type="image/webp" />
+    <link rel="stylesheet" href="styles.css?v=11" />
+    <title>Kenny's Workshop</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to the activity</a>
+
+    <div class="app-shell">
+      <header class="topbar" aria-label="Main header">
+        <button class="brand-button" type="button" data-action="go-home" aria-label="Kenny's Workshop home">
+          <span class="brand-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" focusable="false">
+              <path d="M8 36c8-12 20-18 35-18h4l4 7 7 4-7 4-4 7h-4C28 40 16 34 8 22Z" />
+              <path d="M19 39v9M14 48h12M39 22v16M34 27h10" fill="none" />
+            </svg>
+          </span>
+          <span class="brand-copy">
+            <strong>Kenny's Workshop</strong>
+            <small>Explore · Tinker · Remember</small>
+          </span>
+        </button>
+
+        <div class="topbar-actions">
+          <button class="utility-button" type="button" data-action="speak-page" aria-label="Hear this page read aloud">
+            <span class="utility-icon" aria-hidden="true">🔊</span>
+            <span>Hear this page</span>
+          </button>
+          <button class="round-button" type="button" data-action="open-settings" aria-label="Open settings">
+            <span aria-hidden="true">⚙</span>
+          </button>
+        </div>
+      </header>
+
+      <main id="main-content" tabindex="-1" aria-live="polite">
+        <section class="content-card">
+          <h1>Kenny's Workshop</h1>
+          <p>Loading the workshop… If this message stays on screen, please open the app in a current version of Microsoft Edge.</p>
+        </section>
+      </main>
+
+      <nav class="bottom-nav" aria-label="Workshop navigation">
+        <button type="button" data-nav="home" data-action="go-home">
+          <span aria-hidden="true">⌂</span>
+          <strong>Home</strong>
+        </button>
+        <button type="button" data-nav="progress" data-action="show-progress">
+          <span aria-hidden="true">🏆</span>
+          <strong>My Progress</strong>
+        </button>
+        <button type="button" data-nav="favorites" data-action="show-favorites">
+          <span aria-hidden="true">★</span>
+          <strong>Favorites</strong>
+        </button>
+        <button type="button" data-nav="settings" data-action="open-settings">
+          <span aria-hidden="true">⚙</span>
+          <strong>Settings</strong>
+        </button>
+      </nav>
+    </div>
+
+    <div id="dialog-root"></div>
+    <div id="toast-root" class="toast-region" role="status" aria-live="polite" aria-atomic="true"></div>
+    <div id="announcer" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <noscript>
+      <section class="noscript">
+        <h1>Kenny's Workshop</h1>
+        <p>Please turn on JavaScript in Microsoft Edge to use the workshop activities.</p>
+      </section>
+    </noscript>
+    <script src="content-data.js?v=11" defer></script>
+    <script src="app.js?v=11" defer></script>
+  </body>
+</html>
+

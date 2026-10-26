@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Kenny's Workshop submarine emblem">
+  <rect width="512" height="512" rx="112" fill="#12314a"/>
+  <circle cx="256" cy="256" r="183" fill="none" stroke="#dce9f0" stroke-width="22" opacity=".7"/>
+  <path d="M90 276c54-90 137-130 248-130h34l39 55 53 29-53 29-39 55h-34c-111 0-194-40-248-130Z" fill="#f2c14e"/>
+  <circle cx="316" cy="224" r="21" fill="#12314a"/>
+  <path d="M151 275v71M111 346h80" fill="none" stroke="#f2c14e" stroke-width="25" stroke-linecap="round"/>
+</svg>
+
